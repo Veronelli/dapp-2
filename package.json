@@ -1,0 +1,20 @@
+{
+  "name": "dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node ./contract/js/compile.js",
+    "deploy": "node ./contract/js/deploy.js",
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.11",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
